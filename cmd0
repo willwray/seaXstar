@@ -1,0 +1,1 @@
+c++ -fconcepts `pkg-config --cflags --libs ../seastar/build/release/seastar.pc` -std=c++1z seaXsort.cc
